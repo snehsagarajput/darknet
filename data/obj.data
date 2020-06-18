@@ -1,5 +1,6 @@
 classes = 3
 train = data/train.txt
-valid = data/train.txt
+#valid = data/train.txt #delete '#' if don't have validation set
+valid = data/valid.txt #comment if don;t have validation set
 names = data/obj.names
 backup= /mydrive/YOLOv4
